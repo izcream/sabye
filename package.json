@@ -1,0 +1,35 @@
+{
+  "name": "sabye",
+  "displayName": "sabye",
+  "description": "sabye(Eye care) color scheme for vscode",
+  "version": "0.1.0",
+  "publisher": "izcream",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izcream/sabye.git"
+  },
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "icon": "screenshots/logo.png",
+  "keywords": [
+    "sabye",
+    "สบาย",
+    "Themes",
+    "eye-cares",
+    "dark",
+    "color-theme"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "sabye",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sabye-color-theme.json"
+      }
+    ]
+  }
+}
