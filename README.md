@@ -15,3 +15,5 @@
 font use in screenshort is Dank mono my all time favorite font😍
 
 made with ❤️ by [izcream*](https://github.com/izcream)
+
+credit: [moon-ui](https://github.com/g3offrey/moon-ui)
