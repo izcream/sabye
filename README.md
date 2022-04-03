@@ -1,6 +1,5 @@
 # Sabye Theme
-
-> Sabye(สบาย, sa-bye) is a thai word meaning comfortable. this theme make for take care developer eyes.🏝️
+Sabye(สบาย, sa-bye) is a thai word meaning comfortable. this theme make for take care developer eyes.🏝️
 
 > Recommended: [italicc](https://marketplace.visualstudio.com/items?itemName=izcream.italicc) toggle italic extension for on/off italic text on your editor😎
 
