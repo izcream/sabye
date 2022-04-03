@@ -888,9 +888,24 @@
         "foreground": "#82C0FF"
       }
     },
+		{
+			"name": "object",
+			"scope": ["variable.other.object.ts", "variable.other.object.js"],
+			"settings": {
+				"foreground": "#FF5370",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Property",
+			"scope": ["variable.other.property"],
+			"settings": {
+				"foreground": "#FFD283"
+			}
+		},
     {
       "name": "ES7 Bind Operator",
-      "scope": ["source.js constant.other.object.key.js string.unquoted.label.js"],
+      "scope": ["source.js source.ts constant.other.object.key.js string.unquoted.label.js"],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#FF5370"
