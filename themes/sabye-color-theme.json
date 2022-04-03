@@ -889,7 +889,7 @@
       }
     },
 		{
-			"name": "object",
+			"name": "Object",
 			"scope": ["variable.other.object.ts", "variable.other.object.js"],
 			"settings": {
 				"foreground": "#FF5370",
@@ -898,9 +898,17 @@
 		},
 		{
 			"name": "Property",
-			"scope": ["variable.other.property"],
+			"scope": ["variable.other.property.ts"],
 			"settings": {
 				"foreground": "#FFD283"
+			}
+		},
+		{
+			"name": "Boolean",
+			"scope": ["constant.language.boolean", "constant.language.undefined"],
+			"settings": {
+				"foreground": "#C792EA",
+				"fontStyle": "bold"
 			}
 		},
     {
@@ -1166,5 +1174,10 @@
         "foreground": "#b267e6"
       }
     }
-  ]
+  ],
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"variable.readonly.local": "#FF5370",
+		"variable.readonly.declaration": "#ffd283"
+	}
 }
